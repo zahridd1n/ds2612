@@ -3,7 +3,6 @@ import sqlite3
 conn = sqlite3.connect("studens.db")
 c = conn.cursor()
 
-##jadval yaratish
 c.execute("""
     CREATE TABLE student(
     id INTEGER PRIMARY KEY,

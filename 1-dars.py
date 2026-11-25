@@ -9,8 +9,7 @@ c.execute("""
     id INTEGER PRIMARY KEY,
     name TEXT,
     son INTEGER,
-    narx REAL
-    )
+    narx REAL  )
 """)
 conn.commit()
 
